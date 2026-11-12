@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Two Player Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Two Player Tic Tac Toe</h1> <!-- Main heading -->
+  <!-- Login section -->
+  <div id="login">
+    <input id="nameInput" placeholder="First Name">
+    <input id="passwordInput" type="password" placeholder="Password">
+    <button id="joinBtn"> Join Game </button>
+  </div>
+
+  <div id="role"></div>                     <!-- Displays role information -->
+  <div id="status"></div>                   <!-- Displays turn or winner -->
+  <canvas id="board" width="600" height="600"></canvas>
+  <button id="resetBtn">Reset Game</button> <!-- Reset button -->
+  <script src="client.js"></script>         <!-- Client-side JavaScript -->
+</body>
+</html>

@@ -1,0 +1,45 @@
+
+/* PAGE STYLING */
+body {
+  font-family: Arial, sans-serif; /* Use a clean sans-serif font throughout the page */
+  text-align: center;             /* Center all text horizontally */
+  margin-top: 30px;               /* Add spacing from the top of the browser window */
+}
+
+/* LOGIN AREA */
+#login {
+  margin-bottom: 20px;      /* Space between the login controls and game area */
+}
+
+#login input {
+  padding: 8px;           /* Add internal spacing inside text fields */
+  margin: 5px;            /* Add spacing between input controls */
+}
+
+#login button {
+  padding: 8px 12px;      /* Increase button size for easier clicking */
+}
+
+/* ROLE DISPLAY */
+#role {
+  font-size: 20px;     /* Make the assigned role easy to read */
+  font-weight: bold;   /* Display role text in bold */
+  margin-bottom: 10px; /* Add space below the role display */
+}
+
+/* STATUS DISPLAY */
+#status {
+  font-size: 24px;     /* Display game status prominently */
+  font-weight: bold;   /* Make status messages stand out */
+  margin-bottom: 15px; /* Add spacing below the status message */
+}
+
+#board {
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #444; /* board outline only */
+  cursor: pointer;
+}
+
+
+
