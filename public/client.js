@@ -10,7 +10,10 @@ const passwordInput = document.getElementById("passwordInput");
 
 const CELL_SIZE = 200;
 
-const ws = new WebSocket(`ws://${window.location.host}`); // WEBSOCKET CONNECTION
+//const ws = new WebSocket(`ws://${window.location.host}`); // WEBSOCKET CONNECTION
+const protocol = window.location.protocol === "https:" ? "wss:" : "ws:";
+const ws = new WebSocket(`${protocol}//${window.location.host}`); // WEBSOCKET CONNECTION
+
 let gameState = null; // Current game state
 let role = "spectator"; // Player role
 
